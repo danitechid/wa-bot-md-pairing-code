@@ -14,12 +14,46 @@
 * Owner/Admin
 
 ## Instalasi
-### Instal/clone proyek
+### Instal perangkat lunak/paket-paket
+#### Untuk Linux
+```bash
+sudo apt-get install nodejs
+sudo apt-get install npm
+sudo apt-get install yarn
+sudo apt-get install ffmpeg
+sudo apt-get install libwebp
+```
+
+#### Untuk Windows
+```bash
+choco install nodejs
+choco install yarn
+choco install ffmpeg
+choco install libwebp
+```
+
+#### Untuk MacOS
+```bash
+brew install node
+brew install yarn
+brew install ffmpeg
+brew install webp
+```
+
+#### Untuk Android (Termux)
+```bash
+pkg install nodejs
+pkg install yarn
+pkg install ffmpeg
+pkg install libwebp
+```
+
+### Download/klon proyek
 ```bash
 git clone https://github.com/danitechid/wa-bot-md-pairing-code.git
 ```
 
-### Pimdah Direktori (CD)
+### Pindah Direktori (CD)
 ```bash
 cd wa-bot-md-pairing-code
 ```
