@@ -1,0 +1,34 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys" : "^6.5.0",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^8.15.5",
+    "readline": "^1.3.0",
+    "qrcode-terminal": "^0.12.0",
+    "chalk": "^4.1.2",
+    "mongoose": "^7.5.4",
+    "node-cron": "^3.0.2",
+    "os": "^0.1.2",
+    "crypto": "^1.0.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-webpmux": "^3.1.9",
+    "form-data": "^4.0.0",
+    "file-type": "^16.5.3",
+    "util": "^0.12.4",
+    "axios": "0.24.0",
+    "path": "^0.12.7",
+    "nodemon": "^3.0.1"
+  },
+  "author": "Dani Ramdani",
+  "license": "ISC"
+}
