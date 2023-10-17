@@ -35,7 +35,9 @@ mongodb_uri: 'Your_MongoDb_URI', // Register here: https://mongodb.com/#sign-up
 
 ### Application Programming Interface (API)
 #### Dapatkan Kunci API
-Daftar dan dapatkan kunci API: <a href="https://api.danitechno.com">https://api.danitechno.com</a> dan <a href="https://api.caliph.biz.id">https://api.caliph.biz.id</a>
+Daftar dan dapatkan kunci API:
+1. <a href="https://api.danitechno.com">https://api.danitechno.com</a>
+2. <a href="https://api.caliph.biz.id">https://api.caliph.biz.id</a>
 
 #### Edit ./config/mainConfig.js > api
 ```javascript
