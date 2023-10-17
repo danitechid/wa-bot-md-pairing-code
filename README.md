@@ -44,7 +44,8 @@ api: {
     ...
     api_key: 'Your_API_key' // Register here: https://daniapi.my.id/#sign-up
   },
-  caliph: {    ...
+  caliph: {
+    ...
     api_key: 'Your_API_key' // Register here: https://api.caliph.biz.id/#sign-up
   }
 }
