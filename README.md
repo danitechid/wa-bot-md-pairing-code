@@ -89,7 +89,7 @@ bun run start
 * Kontak pembuat / Pengembang: 0895 1254 5999 (WhatsApp), contact@danitechno.com (Email)
 
 ## Terimakasih kepada
-* Dani Techno. - FullStack Engineer (Pembuat / Pengembam)
+* Dani Techno. - FullStack Engineer (Pembuat / Pengembang)
 * daniapi.my.id / api.danitechno.com (Penyedia API)
 * api.caliph.biz.id (Penyedia remini API)
 * @danitech/scraper (Penyedia Scraper)
