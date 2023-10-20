@@ -14,50 +14,12 @@
 * Owner/Admin
 
 ## Instalasi
-### Instal perangkat lunak/paket-paket
-#### Untuk Linux
-```bash
-sudo apt-get install nodejs
-sudo apt-get install git
-sudo apt-get install npm
-sudo apt-get install yarn
-sudo apt-get install ffmpeg
-sudo apt-get install libwebp
-```
-
-#### Untuk Windows
-```bash
-choco install nodejs
-choco install git
-choco install yarn
-choco install ffmpeg
-choco install libwebp
-```
-
-#### Untuk MacOS
-```bash
-brew install node
-brew install git
-brew install yarn
-brew install ffmpeg
-brew install webp
-```
-
-#### Untuk Android (Termux)
-```bash
-pkg install nodejs
-pkg install git
-pkg install yarn
-pkg install ffmpeg
-pkg install libwebp
-```
-
-### Download/klon proyek
+### Instal/clone proyek
 ```bash
 git clone https://github.com/danitechid/wa-bot-md-pairing-code.git
 ```
 
-### Pindah Direktori (CD)
+### Pimdah Direktori (CD)
 ```bash
 cd wa-bot-md-pairing-code
 ```
@@ -82,11 +44,11 @@ Daftar dan dapatkan kunci API:
 api: {
   dani: {
     ...
-    api_key: 'Your_API_key' // Register here: https://daniapi.my.id/#sign-up
+    api_key: 'Your_API_key' // Registrasi disini: https://daniapi.my.id/#sign-up
   },
   caliph: {
     ...
-    api_key: 'Your_API_key' // Register here: https://api.caliph.biz.id/#sign-up
+    api_key: 'Your_API_key' // API untuk fitur remini | Registrasi disini: https://api.caliph.biz.id/#sign-up
   }
 }
 ```
@@ -122,17 +84,16 @@ node run start
 bun run start
 ```
 
-## Information
-* Information
-* Creator / Developer: Dani Ramdani (Dani Techno.) - FullStack Engineer
-* Contact creator / Developer: 0895 1254 5999 (WhatsApp), contact@danitechno.com (Email)
+## Informasi
+* Pembuat / Pengembang: Dani Ramdani (Dani Techno.) - FullStack Engineer
+* Kontak pembuat / Pengembang: 0895 1254 5999 (WhatsApp), contact@danitechno.com (Email)
 
-## Thanks to
-* Dani Techno. - FullStack Engineer (Creator / Developer)
-* daniapi.my.id / api.danitechno.com (API provider)
-* api.caliph.biz.id (API provider)
-* @danitech/scraper (Scraper provider)
-* @whiskeysockets/baileys (Library "Baileys" provider)
+## Terimakasih kepada
+* Dani Techno. - FullStack Engineer (Pembuat / Pengembam)
+* daniapi.my.id / api.danitechno.com (Penyedia API)
+* api.caliph.biz.id (Penyedia remini API)
+* @danitech/scraper (Penyedia Scraper)
+* @whiskeysockets/baileys (Penyedia Library "Baileys")
 * @adiwajshing/keyed-db
 * @hapi/boom
 * pino
@@ -141,4 +102,4 @@ bun run start
 * mongoose
 * node-cron
 * nodemon
-* other
+* dan lain-lain
