@@ -6,7 +6,7 @@
 
 /* Thanks to
  * Dani Techno. - FullStack Engineer (Creator / Developer)
- * daniapi.my.id / api.danitechno.com (API provider)
+ * daniapi.biz.id (API provider)
  * api.caliph.biz.id (API provider)
  * @danitech/scraper (Scraper provider)
  * @whiskeysockets/baileys (Library "Baileys" provider)
@@ -44,8 +44,8 @@ module.exports = {
   mongodb_uri: 'Your_MongoDb_URI', // Register here: https://mongodb.com/#sign-up
   api: {
     dani: {
-      api_url: 'https://api.danitechno.com',
-      api_key: 'Your_API_key' // Register here: https://daniapi.my.id/#sign-up
+      api_url: 'https://daniapi.biz.id',
+      api_key: 'Your_API_key' // Register here: https://daniapi.biz.id/#sign-up
     },
     caliph: {
       api_url: 'https://api.caliph.biz.id',
