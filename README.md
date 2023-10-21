@@ -36,7 +36,7 @@ mongodb_uri: 'Your_MongoDb_URI', // Register here: https://mongodb.com/#sign-up
 ### Application Programming Interface (API)
 #### Dapatkan Kunci API
 Daftar dan dapatkan kunci API:
-1. <a href="https://api.danitechno.com">https://api.danitechno.com</a>
+1. <a href="https://daniapi.biz.id">https://daniapi.biz.id</a>
 2. <a href="https://api.caliph.biz.id">https://api.caliph.biz.id</a>
 
 #### Edit ./config/mainConfig.js > api
@@ -44,7 +44,7 @@ Daftar dan dapatkan kunci API:
 api: {
   dani: {
     ...
-    api_key: 'Your_API_key' // Registrasi disini: https://daniapi.my.id/#sign-up
+    api_key: 'Your_API_key' // Registrasi disini: https://daniapi.biz.id/#sign-up
   },
   caliph: {
     ...
@@ -90,7 +90,7 @@ bun run start
 
 ## Terimakasih kepada
 * Dani Techno. - FullStack Engineer (Pembuat / Pengembang)
-* daniapi.my.id / api.danitechno.com (Penyedia API)
+* daniapi.biz.id (Penyedia API)
 * api.caliph.biz.id (Penyedia remini API)
 * @danitech/scraper (Penyedia Scraper)
 * @whiskeysockets/baileys (Penyedia Library "Baileys")
