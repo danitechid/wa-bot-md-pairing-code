@@ -6,7 +6,7 @@
 
 /* Thanks to
  * Dani Techno. - FullStack Engineer (Creator / Developer)
- * daniapi.my.id / api.danitechno.com (API provider)
+ * daniapi.biz.id (API provider)
  * api.caliph.biz.id (API provider)
  * @danitech/scraper (Scraper provider)
  * @whiskeysockets/baileys (Library "Baileys" provider)
