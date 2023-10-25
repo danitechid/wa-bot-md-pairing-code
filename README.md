@@ -19,7 +19,7 @@
 git clone https://github.com/danitechid/wa-bot-md-pairing-code.git
 ```
 
-### Pimdah Direktori (CD)
+### Pindah Direktori (CD)
 ```bash
 cd wa-bot-md-pairing-code
 ```
