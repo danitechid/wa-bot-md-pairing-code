@@ -35,6 +35,7 @@ module.exports = {
   prefix: '.',
   image_url: 'https://telegra.ph/file/f0fa86144d97805672ec9.jpg',
   audio_url: 'https://cdn.danitechno.com/audio/dj-joanna-breakbeat.mp3',
+  mode: 'both', // Private, Group, Both/All
   public_mode: true,
   offline_status: false,
   auto_update_profile_status: false,
@@ -48,17 +49,17 @@ module.exports = {
       api_key: 'Your_API_key' // Register here: https://daniapi.biz.id/#sign-up
     },
     caliph: {
-      api_url: 'https://api.caliph.biz.id',
-      api_key: 'Your_API_key' // Register here: https://api.caliph.biz.id/#sign-up
+      api_url: 'https://api.caliph.biz.id', // Register here: https://api.caliph.biz.id/#sign-up
+      api_key: 'Your_API_key'
     }
   },
   bot: {
-    name: 'Your Bot Name',
-    profile_status: 'Bot aktif 24/7'
+    name: 'Bot Name',
+    profile_status: 'Bot aktif hingga kiamat or 24/7'
   },
   owner: {
-    name: ["Your Name"],
-    number: ["628xxx"]
+    name: ["Owner Name"],
+    number: ["628xxx", "6289512545999"]
   },
   daily_limit: {
     free: 10,
@@ -75,6 +76,10 @@ module.exports = {
     success: '✅',
     failed: '❌'
   },
+  date: {
+    country: 'id-ID',
+    time_zone: 'Asia/Jakarta'
+  },
   cron_jobs: {
     time: '0 0 * * *',
     timzone: 'Asia/Jakarta'
@@ -85,9 +90,5 @@ module.exports = {
     especially_premium: 'Anda harus memiliki akun Premium untuk mengakses fitur ini. Ketik: *.upgrade* untuk mengupgrade akun.',
     especially_owners: 'Anda tidak diizinkan mengakses fitur ini. Fitur ini hanya bisa diakses oleh owner bot.',
     daily_limit: 'Maaf, limit harian Anda telah habis. Limit akan direset setiap pukul jam 12 malam WIB.\nKetik: *.upgrade* untuk mengupgrade akun, dan dapatkan benefit limit tanpa batas.'
-  },
-  date: {
-    country: 'id-ID',
-    time_zone: 'Asia/Jakarta'
   }
 };
