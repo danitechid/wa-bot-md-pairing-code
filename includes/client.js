@@ -39,7 +39,7 @@ module.exports = async ({
   client,
   messages,
   userSchema
-}) {
+}) => {
   try {
     const message = messages.message;
     const messageType = messages.type;
