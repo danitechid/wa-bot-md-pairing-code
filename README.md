@@ -14,7 +14,7 @@
 * Owner/Admin
 
 ## Instalasi
-### Instal perangkat lunak/paket-paket
+### Instal Perangkat Lunak/Paket-Paket
 #### Untuk Linux
 ```bash
 sudo apt-get install nodejs
@@ -52,7 +52,7 @@ pkg install ffmpeg
 pkg install libwebp
 ```
 
-### Download/klon proyek
+### Download/Klon Proyek
 ```bash
 git clone https://github.com/danitechid/wa-bot-md-pairing-code.git
 ```
@@ -63,7 +63,7 @@ cd wa-bot-md-pairing-code
 ```
 
 ### MongoDb
-#### Buat akun dan database MongoDb
+#### Buat Akun dan Database MongoDb
 Daftar dan buat database dan dapatkan MongoDb URI: <a href="https://mongodb.com">https://mongodb.com</a>
 
 #### Edit ./config/mainConfig.js > mongodb_uri
@@ -91,33 +91,33 @@ api: {
 }
 ```
 
-### Instal dependensi
+### Instal Dependensi
 #### Menggunakan Npm
 ```bash
 npm install
 ```
-#### Atau menggunakan Yarn
+#### Atau Menggunakan Yarn
 ```bash
 yarn install
 ```
 
-### Jalankan server
+### Jalankan Server
 #### Menggunakan Npm
 ```bash
 npm run start
 ```
 
-#### Atau menggunakan Yarn
+#### Atau Menggunakan Yarn
 ```bash
 yarn run start
 ```
 
-#### Atau menggunakan Node
+#### Atau Menggunakan Node
 ```bash
 node run start
 ```
 
-#### Atau menggunakan Bun
+#### Atau Menggunakan Bun
 ```bash
 bun run start
 ```
@@ -126,7 +126,7 @@ bun run start
 * Pembuat / Pengembang: Dani Ramdani (Dani Techno.) - FullStack Engineer
 * Kontak Pembuat / Pengembang: 0895 1254 5999 (WhatsApp), contact@danitechno.com (Email)
 
-## Terimakasih kepada
+## Terimakasih Kepada
 * Dani Techno. - FullStack Engineer (Pembuat / Pengembang)
 * daniapi.biz.id (Penyedia API)
 * api.caliph.biz.id (Penyedia remini API)
