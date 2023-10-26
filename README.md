@@ -14,7 +14,45 @@
 * Owner/Admin
 
 ## Instalasi
-### Instal/clone proyek
+### Instal perangkat lunak/paket-paket
+#### Untuk Linux
+```bash
+sudo apt-get install nodejs
+sudo apt-get install git
+sudo apt-get install npm
+sudo apt-get install yarn
+sudo apt-get install ffmpeg
+sudo apt-get install libwebp
+```
+
+#### Untuk Windows
+```bash
+choco install nodejs
+choco install git
+choco install yarn
+choco install ffmpeg
+choco install libwebp
+```
+
+#### Untuk MacOS
+```bash
+brew install node
+brew install git
+brew install yarn
+brew install ffmpeg
+brew install webp
+```
+
+#### Untuk Android (Termux)
+```bash
+pkg install nodejs
+pkg install git
+pkg install yarn
+pkg install ffmpeg
+pkg install libwebp
+```
+
+### Download/klon proyek
 ```bash
 git clone https://github.com/danitechid/wa-bot-md-pairing-code.git
 ```
@@ -86,7 +124,7 @@ bun run start
 
 ## Informasi
 * Pembuat / Pengembang: Dani Ramdani (Dani Techno.) - FullStack Engineer
-* Kontak pembuat / Pengembang: 0895 1254 5999 (WhatsApp), contact@danitechno.com (Email)
+* Kontak Pembuat / Pengembang: 0895 1254 5999 (WhatsApp), contact@danitechno.com (Email)
 
 ## Terimakasih kepada
 * Dani Techno. - FullStack Engineer (Pembuat / Pengembang)
