@@ -1,0 +1,4 @@
+{
+  "watch": ["config/settings.js","includes/client.js"],
+  "ext": "js"
+}
