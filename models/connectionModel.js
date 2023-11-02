@@ -24,7 +24,7 @@
 const mongoose = require('mongoose');
 const chalk = require('chalk');
 
-const config = require('../config/mainConfig.js');
+const config = require('../config/settings.js');
 
 let db = mongoose.connection;
 
