@@ -102,7 +102,7 @@ function smsg(conn, m, store) {
   m.text = m.msg.text || m.msg.caption || m.message.conversation || m.msg.contentText || m.msg.selectedDisplayText || m.msg.title || '';
   m.reply = (text, chatId = m.chat, options = {}) => Buffer.isBuffer(text) ? conn.sendMedia(chatId, text, 'file', '', m, {
     ...options
-  }) : conn.sendText(chatId, text, m, {
+  }) : conn.sendTextMessage(chatId, text, m, {
     ...options
   });
   m.copy = () => exports.smsg(conn, M.fromObject(M.toObject(m)));
