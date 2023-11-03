@@ -202,16 +202,6 @@ async function startServer() {
     
     sock.serializeM = (m) => smsg(sock, m, store);
 
-    sock.sendText = (jid, text, quoted = '', options) => {
-      return sock.sendMessage(jid, {
-        text: text,
-        ...options
-      }, {
-        quoted,
-        ...options
-      })
-    };
-
     sock.sendImageAsSticker = async (jid, path, quoted, options = {}) => {
       let buff = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?base64,/i.test(path) ? Buffer.from(path.split`,` [1], 'base64') : /^https?:\/\//.test(path) ? await (await fetchBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0);
       let buffer;
@@ -284,7 +274,34 @@ async function startServer() {
 
       return buffer;
     };
+    
+    sock.sendTextMessage = (jid, text, quoted) => {
+      return sock.sendMessage(jid, {
+        text: text,
+      }, {
+        quoted: quoted
+      })
+    };
 
+    sock.sendImageMessage = (jid, title, description, sourceUrl, thumbnailUrl, caption, renderLargerThumbnail, showAdAttribution, quoted) => {
+      return sock.sendMessage(jid, {
+        text: caption,
+        contextInfo: {
+          externalAdReply: {
+            title: title,
+            body: description,
+            sourceUrl: sourceUrl,
+            thumbnailUrl: thumbnailUrl,
+            mediaType: 1,
+            renderLargerThumbnail: renderLargerThumbnail,
+            showAdAttribution: showAdAttribution
+          }
+        }
+      }, {
+        quoted: quoted
+      })
+    };
+  
     return sock;
   } catch (error) {
     console.error(error);
