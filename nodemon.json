@@ -1,4 +1,4 @@
 {
-  "watch": ["config/settings.js","includes/client.js"],
+  "ignore": ["index.js"],
   "ext": "js"
 }
