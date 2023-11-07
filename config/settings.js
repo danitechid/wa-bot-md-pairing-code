@@ -31,7 +31,7 @@ understand?
 module.exports = {
   pairing_mode: true,
   session_folder_name: 'session',
-  browser: ["Chrome (Windows)", "latest"],
+  browser: ["Chrome (Linux)"],
   prefix: '.',
   public_mode: true,
   chat_mode: 'both', // Private, Group, Both/All
@@ -40,27 +40,21 @@ module.exports = {
   auto_read_messages: true,
   auto_typing: true,
   auto_recording: false,
-  mongodb_uri: 'Your MongoDb URI', // Register here: https://mongodb.com/#sign-up
+  mongodb_uri: 'Your-MongoDb-URI', // Register here: https://mongodb.com/#sign-up
   api: {
-    dani: {
-      api_url: 'https://daniapi.biz.id',
-      api_key: 'Your API Key' // Register here: https://daniapi.biz.id/#sign-up
-    },
-    caliph: {
-      api_url: 'https://api.caliph.biz.id', // Register here: https://api.caliph.biz.id/#sign-up
-      api_key: 'Your API Key'
-    }
+    url: 'https://daniapi.biz.id',
+    key: 'Your-API-key' // Register here: https://daniapi.biz.id/#sign-up
   },
   bot: {
-    name: 'Bot Name',
+    name: 'Your Bot Name',
     profile_status: 'Bot aktif hingga kiamat or 24/7'
   },
   owner: {
-    name: ["Owner Name"],
+    name: ["Your Name"],
     number: ["628xxx"]
   },
   daily_limit: {
-    free: 50,
+    free: 25,
     premium: Infinity
   },
   watermark: {
@@ -83,7 +77,7 @@ module.exports = {
     audio: { url: 'https://cdn.danitechno.com/audio/dj-joanna-breakbeat.mp3' }
   },
   message: {
-    plans_and_pricing: '*Plans & Pricing*\n\n*Plan:*\n- Free (benefit): Limit 10/day\n- Premium (benefit): Limit infinity/unlimited\n\n*Price:*\n- Premium 7 hari: 3rb\n- Premium 14 hari: 5rb\n- Premium 1 bulan 10rb\n- Premium 2 bulan: 20rb\n- Premium 1 tahun: 120rb\n\n*Contact owner:* 628xxx',
+    plans_and_pricing: '*Plans & Pricing*\n\n*Plan:*\n- Free (benefit): Limit 10/day\n- Premium (benefit): Limit infinity/unlimited\n\n*Price:*\n- Premium 7 hari: 3rb\n- Premium 14 hari: 5rb\n- Premium 1 bulan 10rb\n- Premium 2 bulan: 20rb\n- Premium 1 tahun: 120rb\n\n*Contact owner:* 6289512545999',
     not_registered: 'Anda belum terdaftar sebagai pengguna. Untuk mendaftar, ketik: *.register*.',
     especially_premium: 'Anda harus memiliki akun Premium untuk mengakses fitur ini. Ketik: *.upgrade* untuk mengupgrade akun.',
     especially_owners: 'Anda tidak diizinkan mengakses fitur ini. Fitur ini hanya bisa diakses oleh owner bot.',
