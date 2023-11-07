@@ -68,7 +68,7 @@ Daftar dan buat database dan dapatkan MongoDb URI: <a href="https://mongodb.com"
 
 #### Edit ./config/mainConfig.js > mongodb_uri
 ```javascript
-mongodb_uri: 'Your_MongoDb_URI', // Register here: https://mongodb.com/#sign-up
+mongodb_uri: 'Your-MongoDb-URI', // Register here: https://mongodb.com/#sign-up
 ```
 
 ### Application Programming Interface (API)
