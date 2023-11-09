@@ -73,7 +73,7 @@ module.exports = {
     timzone: 'Asia/Jakarta'
   },
   media: {
-    image: { url: 'https://telegra.ph/file/f0fa86144d97805672ec9.jpg' },
+    image: { url: 'https://telegra.ph/file/c3ad72f45c2cc7cad691a.jpg' },
     audio: { url: 'https://cdn.danitechno.com/audio/dj-joanna-breakbeat.mp3' }
   },
   message: {
