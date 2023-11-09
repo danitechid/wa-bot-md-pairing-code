@@ -122,15 +122,5 @@ bun run start
 ## Terimakasih Kepada
 * Dani Techno. - FullStack Engineer (Pembuat / Pengembang)
 * daniapi.biz.id (Penyedia API)
-* api.caliph.biz.id (Penyedia remini API)
-* @danitech/scraper (Penyedia Scraper)
 * @whiskeysockets/baileys (Penyedia Library "Baileys")
-* @adiwajshing/keyed-db
-* @hapi/boom
-* pino
-* qrcode-terminal
-* chalk
-* mongoose
-* node-cron
-* nodemon
-* dan lain-lain
+* dan lainnya
