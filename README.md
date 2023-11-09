@@ -66,7 +66,7 @@ cd wa-bot-md-pairing-code
 #### Buat Akun dan Database MongoDb
 Daftar dan buat database dan dapatkan MongoDb URI: <a href="https://mongodb.com">https://mongodb.com</a>
 
-#### Edit ./config/mainConfig.js > mongodb_uri
+#### Edit ./config/settings.js > mongodb_uri
 ```javascript
 mongodb_uri: 'Your-MongoDb-URI', // Register here: https://mongodb.com/#sign-up
 ```
@@ -76,7 +76,7 @@ mongodb_uri: 'Your-MongoDb-URI', // Register here: https://mongodb.com/#sign-up
 Daftar dan dapatkan kunci API:
 <a href="https://daniapi.biz.id">https://daniapi.biz.id</a>
 
-#### Edit ./config/mainConfig.js > api
+#### Edit ./config/settings.js > api
 ```javascript
 api: {
   ...
